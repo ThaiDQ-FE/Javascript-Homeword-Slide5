@@ -213,3 +213,21 @@ function tinhGiaConLai(soKW, giaTienConLai) {
     result = (soKW - 350) * giaTienConLai;
     return result;
 }
+
+
+// // function tinhTienOptimize(soKW) {
+//   var tong = 0;
+//   if (soKW >= 0) {
+//     for(var i = 0; i<4; i++) {
+//       if (soKW > mocTinh[i]) {
+//         tong += mocTinh[i] * tienDien[i];
+//         soKW -= mocTinh[i];
+//       } else {
+//         tong += soKW * tienDien[i];
+//         soKW -= mocTinh[i];
+//       }
+//     }
+//     tong += soKW > 0 ? soKW * tienDien[4]:0;
+//   }
+//   return tong
+// }
